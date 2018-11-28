@@ -1,6 +1,6 @@
 ---
 
-- hosts: mmmh
+- hosts: all
   tasks:
     - debug: var=ansible_hostname
 
