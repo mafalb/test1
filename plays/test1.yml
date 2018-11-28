@@ -2,4 +2,4 @@
 
 - hosts: all
   roles:
-    - role test2
+    - role: test2
