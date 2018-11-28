@@ -1,6 +1,5 @@
 ---
 
 - hosts: all
-  tasks:
-    - debug: var=ansible_hostname
-
+  roles:
+    - role test2
